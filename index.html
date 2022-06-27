@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Cidade Estado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "content">
+        <div action = "" id="formulario">
+            <h2 class="titulo">Formulário Cidade Estado</h2>
+        </div>  
+
+        <div class="inputestado">
+            <label for="estado">Estado</label>
+            <select name = "slct1" id="estado" onchange = "myFunction(this.id,'cidade')">
+                <option value="0"> selecione o estado</option>
+                <option value="PR">Paraná (PR)</option>
+                <option value="SC">Santa Catarina (SC)</option>
+                <option value="RS">Rio Grande do Sul (RS)</option>
+            </select>
+        </div>
+
+        <div class="inputcidade">
+            <label for="cidade">Cidade</label>
+            <select name = "slct2" id="cidade"disabled onchange="ddlselect();">
+                <option value=""> selecione a cidade</option>
+            </select>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

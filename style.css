@@ -1,0 +1,51 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,300';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.2/css/simple-line-icons.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css';
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:300,700';
+
+body{
+    width: 100%;
+    min-height: 900px;
+    margin: 3em auto;
+    background: rgb(247,202,201);
+    background: -moz-linear-gradient(-45deg,rgb(247,202,201,1) 0%, rgb(146,168,209,1) 100%);
+    background: -webkit-linear-gradient(-45deg,rgb(247,202,201,1) 0%, rgb(146,168,209,1) 100%);
+    background: linear-gradient(135deg,rgb(247,202,201,1) 0%, rgb(146,168,209,1) 100%);
+    font-family: "Roboto Mono";
+    letter-spacing: 1px;
+}
+
+h2{
+    position: relative;
+    font-size: 70px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 3em;
+    letter-spacing: 0px;
+    text-shadow: 1px 1px rgb(0,0,0,0.02),2px 2px rgb(0,0,0,0.02),3px 3px rgb(0,0,0,0.02),4px 4px rbg(0,0,0,0.02),5px 5px rgb(0,0,0,0.02),6px 6px rgb(0,0,0,0.02),7px 7px rgb(0,0,0,0.02);
+}
+
+select{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 25px;
+    border-bottom: 0px;
+    border-radius: 3px;
+    font-size: 12px;
+    box-shadow: 0px 1em 2em -1.5em rgb(0,0,0,.5);
+}
+
+label{
+    position: relative;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    width: 100%;
+    transition: all 1s ease-out;
+}
+
